@@ -1,4 +1,6 @@
-print ('''        /`-._      _,
+t = 0
+while t!=1:
+    print ('''        /`-._      _,
           /      `-._(  \
          /           \\  \
         /             \\  \`-._
@@ -16,8 +18,6 @@ print ('''        /`-._      _,
                `-._           /
                     `-._     /
                          `-./''')
-t = 0
-while t!=1:
     print(" Welcome to columbia\n","Your long and ardeous journy has lead you to pablo escobar's house")
     a = input(" You're at a crossroad, do you wanna explore the room on the lef tor the right? \n enter left to enter the room on the left, or right to enter the room on the right : ")
     if a == "left" or a =="Left" or  a =="LEFT":
@@ -88,7 +88,7 @@ _________||_|_|_|_{| |}|||_|_||______________
   (_(||)-| S123-45 |-(||)_)''')
         elif x =="no" or x=="NO" or x=="No":
             for i in range(5):
-                q = int(input("enter a six digit code"))
+                q = int(input("enter a six digit code : "))
                 if q == 696969:
                     print("you have successfully opened the vault and gotten all the riches left behind for yourself and successfully left the mansion multitudes richer than when you entered")
                     t = 1
